@@ -26,7 +26,7 @@ encriptar.addEventListener('click', () => {
     cifResult.classList.remove('hide');
     let string = document.getElementById('texto').value;
     let offset = document.getElementById('desplazamiento').value;
-    window.cipher.encode(offset, string, nombre);
+    window.cipher.encode(offset, string);
     document.getElementById('textoCifrado').innerHTML = window.cipher.encode(offset, string);
 });
 
