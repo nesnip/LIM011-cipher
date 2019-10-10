@@ -1,6 +1,6 @@
 window.cipher = {
   // Acá escribe tu código.
-  encode: (offset, string) => {
+  encode: (offset, string, nombre) => {
     /* Acá va tu código que cifra*/
     let cipEncode = "";
     for (let i = 0; i < string.length; i++) {
@@ -18,27 +18,6 @@ window.cipher = {
       }
     }
     return cipEncode;
-
-    /*let result = "";
-      //inicio de recorrido de caracteres
-      for (let i = 0; i < string.length; i++) {
-        let asciiPosition = string[i];
-        if (asciiPosition.match(/[a-z]/i)) {
-
-          if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
-            let text = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
-            result += String.fromCharCode(text);
-          }
-          else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
-            text = (string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97;
-            result += String.fromCharCode(text);
-          }
-        } 
-        else {
-          result += asciiPosition;
-        }
-      }
-      return result;*/
   },
 
   decode: (offset, string) => {
@@ -63,4 +42,3 @@ window.cipher = {
   },
 
 };
-
