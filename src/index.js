@@ -1,5 +1,4 @@
 const aceptar = document.getElementById('aceptar');
-const rechazar = document.getElementById('rechazar');
 const root = document.getElementById('root');
 const options = document.getElementById('options');
 const cifrado = document.getElementById('cifrado');
@@ -8,6 +7,10 @@ const descifrado = document.getElementById('descifrado');
 const descifResult = document.getElementById('descifResult');
 const encriptar = document.getElementById('encriptar');
 const desencriptar = document.getElementById('desencriptar');
+const cifrar = document.getElementById('cifrar');
+const descifrar = document.getElementById('descifrar');
+const inicio1 = document.getElementById('inicio1');
+const inicio2 = document.getElementById('inicio2');
 
 root.classList.remove('hide');
 
