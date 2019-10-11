@@ -6,9 +6,62 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Bienvenido!!!!</h1>
+    <div class="headerbox"></div>
+    <div id="root" class="hide caja">
+      <h1 style="text-align: center">¡Bienvenid@!</h1>
+      <p>En Munay, podrás informarnos de manera privada si eres testigo de algún caso de abuso, eres víctima o te encuentras en situaciòn vulnerable.</p>
+      <p>En esta plataforma podrás cifrar y/o descifrar mensajes para salvaguardar tu integridad</p>
+      <p>Podrás cifrar tu información e indicar el nivel de seguridad, así como descifrar mensajes en caso nos hayamos puesto en contacto contigo vía SMS, Whatsapp o e-mail.</p>
+      <p>Al aceptar, estarás permitiendo que la información brindada sea usada para los fines pertinentes.</p>
+      <div class="centrar">
+        <button id="aceptar" class="btn btn1">Aceptar</button>
+        <input class="btn btn1" name="button" type="button" onclick="window.close();" value="Rechazar"/>
+      </div>
     </div>
+
+    <div id="options" class="hide caja">
+      <p>A continuación, elige entre cifrar o descrifrar tu mensaje.
+        Recuerda que se requerirán tus datos personales para verificar que la información brindada sea real.</p>
+      <p>Cifrar: Brindarás los datos que se requieran de manera que se encriptarán</p>
+      <p>Descifrar: Escribirás un mensaje cifrado que se te haya proporcionado indicando el nivel de seguridad</p>
+      <div class="centrar">
+        <button class="btn btn1" id="cifrar">Cifrar</button>
+        <button class="btn btn1" id="descifrar">Descifrar</button>
+      </div>
+    </div>
+
+    <div id="cifrado" class="hide caja">
+      <h1>Cifrar datos</h1>
+      <div><input type="text" placeholder="Nombres y apellidos"></div>
+      <p></p>
+      <div><input type="text" placeholder="DNI/Carnet de extranjería"> <input type="number" placeholder="Teléfono"></div>
+      <p></p>
+      <div><input type="text" placeholder="E-mail"> <input id="desplazamiento" type="number" min="0" pattern="^[0-9]+" placeholder="Nivel de seguridad"></div> 
+      <p></p>
+      <textarea name="" id="texto" cols="30" rows="10" placeholder="Escribe tu mensaje aquí" class="text"></textarea>
+      <button id="encriptar" class="btn btn1">Cifrar</button>
+    </div>
+
+    <div id="cifResult" class="hide caja">
+      <h1>Datos cifrados</h1>
+      <textarea name="" id="textoCifrado" cols="50" rows="10" disabled></textarea>
+      <button class="btn btn1" id="inicio1">Inicio</button>
+    </div>
+
+    <div id="descifrado" class="hide caja">
+      <h1>Descifrar datos</h1>
+      <div>Nivel de seguridad:  <input type="number" min="0" pattern="^[0-9]+" id="desplazamiento2"></div>
+      <p></p>
+      <textarea name="" id="texto2" cols="50" rows="10" placeholder="Escribe tu mensaje aquí" class="text"></textarea>
+      <button id="desencriptar" class="btn btn1">Descifrar</button>
+    </div>
+
+    <div id="descifResult" class="hide caja">
+      <h1>Datos descifrados</h1>
+      <textarea name="" id="textoDescifrado" cols="50" rows="10" disabled></textarea>
+      <button class="btn btn1" id="inicio2">Inicio</button>
+    </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
