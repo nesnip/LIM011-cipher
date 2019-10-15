@@ -36,7 +36,10 @@
       <p></p>
       <div><input type="text" placeholder="DNI/Carnet de extranjería"> <input type="number" placeholder="Teléfono"></div>
       <p></p>
-      <div><input type="text" placeholder="E-mail"> <input id="desplazamiento" type="number" min="0" pattern="^[0-9]+" placeholder="Nivel de seguridad"></div> 
+      <div>
+        <input type="text" placeholder="E-mail">
+        <input id="desplazamiento" type="number" min="0" pattern="^[0-9]+" placeholder="Nivel de seguridad">
+      </div>
       <p></p>
       <textarea name="" id="texto" cols="30" rows="10" placeholder="Escribe tu mensaje aquí" class="text"></textarea>
       <button id="encriptar" class="btn btn1">Cifrar</button>
@@ -45,7 +48,10 @@
     <div id="cifResult" class="hide caja">
       <h1>Datos cifrados</h1>
       <textarea name="" id="textoCifrado" cols="50" rows="10" disabled></textarea>
-      <button class="btn btn1" id="inicio1">Inicio</button>
+      <div>
+        <button class="btn btn1" id="inicio1">Inicio</button>
+        <button>Regresar</button>
+      </div>
     </div>
 
     <div id="descifrado" class="hide caja">

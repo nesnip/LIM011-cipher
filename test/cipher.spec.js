@@ -1,6 +1,7 @@
 global.window = global;
 require('../src/cipher');
-
+/* global cipher */
+/* eslint no-undef: ["error", { "typeof": true }] */
 describe('cipher', () => {
   it('debería ser un object', () => {
     expect(typeof cipher).toBe('object');
@@ -18,8 +19,7 @@ describe('cipher', () => {
     it('debería retornar " !@" para " !@"', () => {
       expect(cipher.encode(33, ' !@')).toBe(' !@');
     });
-
-  })
+  });
   describe('cipher.decode', () => {
     it('debería ser una función', () => {
       expect(typeof cipher.decode).toBe('function');
