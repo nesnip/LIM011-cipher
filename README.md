@@ -39,27 +39,27 @@ más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
 ## 2. Objetivos de aprendizaje Cipher
-​
+
 ### UX
-​
+
 - [X] Diseñar la aplicación pensando y entendiendo al usuario.
 - [X] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 ​
 ### HTML y CSS
-​
+
 - [X] Uso correcto de HTML semántico.
 - [X] Uso de selectores de CSS.
 - [X] Construir tu aplicación respetando el diseño realizado (maquetación).
 ​
 ### DOM
-​
+
 - [X] Uso de selectores del DOM.
 - [X] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 ​
 ### Javascript
-​
+
 - [ ] Manipulación de strings.
 - [X] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).
