@@ -2,17 +2,16 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker Edition](#6-hacker-edition)
-* [7. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [1. Introducción](#1-introducción)
+* [2. Objetivos de aprendizaje](#2-objetivos-de-aprendizaje)
+* [3. Consideraciones generales](#3-consideraciones-generales)
+* [4. Criterios de aceptación mínimos del proyecto](#4-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Hacker Edition](#5-hacker-edition)
+* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
-## 1. Preámbulo
+## 1. Introducción
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
@@ -39,22 +38,44 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
-## 2. Resumen del proyecto
-
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación
-web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un
-texto indicando un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+## 2. Objetivos de aprendizaje Cipher
+​
+### UX
+​
+- [X] Diseñar la aplicación pensando y entendiendo al usuario.
+- [X] Crear prototipos para obtener feedback e iterar.
+- [] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+​
+### HTML y CSS
+​
+- [X] Uso correcto de HTML semántico.
+- [X] Uso de selectores de CSS.
+- [X] Construir tu aplicación respetando el diseño realizado (maquetación).
+​
+### DOM
+​
+- [X] Uso de selectores del DOM.
+- [X] Manejo de eventos del DOM.
+- [] Manipulación dinámica del DOM.
+​
+### Javascript
+​
+- [] Manipulación de strings.
+- [X] Uso de condicionales (if-else | switch).
+- [] Uso de bucles (for | do-while).
+- [] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [X] Declaración correcta de variables (const & let).
+​
+### Testing
+- [X] Testeo de tus funciones.
+​
+### Git y GitHub
+- [X] Comandos de git (add | commit | pull | status | push).
+- [] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+​
+### Buenas prácticas de desarrollo
+- [] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [X] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 3. Objetivos de aprendizaje
 
