@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="headerbox"></div>
     <div id="root" class="hide caja">
       <h1 style="text-align: center">¡Bienvenid@!</h1>
       <p>En Munay, podrás informarnos de manera privada si eres testigo de algún caso de abuso, eres víctima o te encuentras en situaciòn vulnerable.</p>
@@ -15,7 +14,7 @@
       <p>Al aceptar, estarás permitiendo que la información brindada sea usada para los fines pertinentes.</p>
       <div class="centrar">
         <button id="aceptar" class="btn btn1">Aceptar</button>
-        <input class="btn btn1" name="button" type="button" onclick="window.close();" value="Rechazar"/>
+        <button id="salir" class="btn btn1">Salir</button>
       </div>
     </div>
 
@@ -32,12 +31,12 @@
 
     <div id="cifrado" class="hide caja">
       <h1>Cifrar datos</h1>
-      <div><input type="text" placeholder="Nombres y apellidos"></div>
+      <div><input type="text" placeholder="Nombres y apellidos" id="nombre"></div>
       <p></p>
-      <div><input type="text" placeholder="DNI/Carnet de extranjería"> <input type="number" placeholder="Teléfono"></div>
+      <div><input type="text" placeholder="DNI/Carnet de extranjería" id="dni"> <input type="number" placeholder="Teléfono" id="telf"></div>
       <p></p>
       <div>
-        <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="E-mail" id="mail">
         <input id="desplazamiento" type="number" min="0" pattern="^[0-9]+" placeholder="Nivel de seguridad">
       </div>
       <p></p>
@@ -50,7 +49,8 @@
       <textarea name="" id="textoCifrado" cols="50" rows="10" disabled></textarea>
       <div>
         <button class="btn btn1" id="inicio1">Inicio</button>
-        <button>Regresar</button>
+        <button id="return1" class="btn btn1">Regresar</button>
+        <button id="copiar1" class="btn btn1">Copiar</button>
       </div>
     </div>
 
@@ -65,7 +65,11 @@
     <div id="descifResult" class="hide caja">
       <h1>Datos descifrados</h1>
       <textarea name="" id="textoDescifrado" cols="50" rows="10" disabled></textarea>
-      <button class="btn btn1" id="inicio2">Inicio</button>
+      <div>
+        <button class="btn btn1" id="inicio2">Inicio</button>
+        <button id="return2" class="btn btn1">Regresar</button>
+        <button id="copiar2" class="btn btn1">Copiar</button>
+      </div>
     </div>
 
     <script src="cipher.js"></script>
