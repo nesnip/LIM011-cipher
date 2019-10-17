@@ -14,8 +14,8 @@
 
 Munay es una aplicación que te permite cifrar y/o descifrar mensajes de acuerdo al nivel de seguridad elegido.
 
-![Cifrado]()
-![Descifrado]()
+![Cifrado](https://github.com/nesnip/LIM011-cipher/blob/master/src/images/cifrado.png?raw=true)
+![Descifrado](https://github.com/nesnip/LIM011-cipher/blob/master/src/images/descifrado.png?raw=true)
 
 ## 2. Objetivos de aprendizaje Cipher
 
