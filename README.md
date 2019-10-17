@@ -57,13 +57,14 @@ Munay es una aplicación que te permite cifrar y/o descifrar mensajes de acuerdo
 
 ### Prototipado Inicial
 
-
+![página1]()
+![página2]()
 
 ### Prototipado Final
 
-![image](https://github.com/nesnip/LIM011-cipher/blob/master/src/images/PF1.png?raw=true)
+![bienvenida](https://github.com/nesnip/LIM011-cipher/blob/master/src/images/PF1.png?raw=true)
 
-![image](https://github.com/nesnip/LIM011-cipher/blob/master/src/images/PF2.png?raw=true)
+![opciones](https://github.com/nesnip/LIM011-cipher/blob/master/src/images/PF2.png?raw=true)
 
 ![cifrar](https://github.com/nesnip/LIM011-cipher/blob/master/src/images/PF3.png?raw=true)
 
