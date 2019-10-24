@@ -27,22 +27,22 @@ Munay es una aplicación que te permite cifrar y/o descifrar mensajes de acuerdo
 ​
 ### HTML y CSS
 
-- [X] Uso correcto de HTML semántico.
+- [ ] Uso correcto de HTML semántico.
 - [X] Uso de selectores de CSS.
 - [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 ​
 ### DOM
 
-- [X] Uso de selectores del DOM.
-- [X] Manejo de eventos del DOM.
-- [ ] Manipulación dinámica del DOM.
+- [ ] Uso de selectores del DOM.
+- [ ] Manejo de eventos del DOM.
+- [X] Manipulación dinámica del DOM.
 ​
 ### Javascript
 
-- [ ] Manipulación de strings.
+- [X] Manipulación de strings.
 - [X] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).
-- [X] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [X] Declaración correcta de variables (const & let).
 ​
 ### Testing
@@ -50,10 +50,10 @@ Munay es una aplicación que te permite cifrar y/o descifrar mensajes de acuerdo
 ​
 ### Git y GitHub
 - [X] Comandos de git (add | commit | pull | status | push).
-- [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [X] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 ​
 ### Buenas prácticas de desarrollo
-- [X] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [X] Uso de linter para seguir buenas prácticas (ESLINT).
 
 ## 3. Prototipado
